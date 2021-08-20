@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="700px" height="700px" viewBox="0 0 700 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo</title>
+    <defs>
+        <rect id="path-1" x="33" y="285" width="15" height="7"></rect>
+        <rect id="path-2" x="491" y="85" width="32" height="7"></rect>
+        <rect id="path-3" x="33" y="382" width="15" height="7"></rect>
+        <rect id="path-4" x="424" y="647" width="30" height="9"></rect>
+        <polygon id="path-5" points="33 203.600903 523 85 630.656724 146.675742 33 292"></polygon>
+        <polygon id="path-6" points="33 585.821216 454 382 520.441347 420.167118 33 656"></polygon>
+        <path d="M285.4,559 C291.4,559 296.8,553.6 296.8,547.6 L296.8,394.6 L338.2,394.6 L418,553.6 C419.2,556 422.8,559 427.6,559 L507.4,559 C517.6,559 521.8,549.4 517.6,541.6 L435.4,389.2 C487.6,368.2 524.2,323.8 524.2,268.6 C524.2,197.2 465.4,139 393.4,139 L214,139 C207.4,139 202.6,144.4 202.6,150.4 L202.6,547.6 C202.6,553.6 207.4,559 214,559 L285.4,559 Z M385.6,318.4 L296.8,318.4 L296.8,224.8 L385.6,224.8 C410.2,224.8 431.2,245.2 431.2,270.4 C431.2,295.6 410.2,318.4 385.6,318.4 Z" id="path-7"></path>
+        <filter x="-11.3%" y="-8.7%" width="125.8%" height="119.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="6.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="5" dy="5" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g>
+            <g id="Rectangle">
+                <use fill="#4D2C91" xlink:href="#path-1"></use>
+                <use fill-opacity="0.7" fill="#D8D8D8" xlink:href="#path-1"></use>
+            </g>
+            <g id="Rectangle">
+                <use fill="#4D2C91" xlink:href="#path-2"></use>
+                <use fill-opacity="0.7" fill="#D8D8D8" xlink:href="#path-2"></use>
+            </g>
+            <g id="Rectangle">
+                <use fill="#4D2C91" xlink:href="#path-3"></use>
+                <use fill-opacity="0.7" fill="#D8D8D8" xlink:href="#path-3"></use>
+            </g>
+            <g id="Rectangle">
+                <use fill="#4D2C91" xlink:href="#path-4"></use>
+                <use fill-opacity="0.7" fill="#D8D8D8" xlink:href="#path-4"></use>
+            </g>
+            <path d="M375,14.4337567 L628.108891,160.566243 C643.578945,169.497883 653.108891,186.004234 653.108891,203.867513 L653.108891,496.132487 C653.108891,513.995766 643.578945,530.502117 628.108891,539.433757 L375,685.566243 C359.529946,694.497883 340.470054,694.497883 325,685.566243 L71.8911087,539.433757 C56.4210548,530.502117 46.8911087,513.995766 46.8911087,496.132487 L46.8911087,203.867513 C46.8911087,186.004234 56.4210548,169.497883 71.8911087,160.566243 L325,14.4337567 C340.470054,5.50211698 359.529946,5.50211698 375,14.4337567 Z" id="Polygon" fill="#4D2C91"></path>
+            <g id="Rectangle">
+                <use fill="#4D2C91" xlink:href="#path-5"></use>
+                <use fill-opacity="0.37" fill="#FFFFFF" xlink:href="#path-5"></use>
+            </g>
+            <g id="Rectangle" transform="translate(276.720674, 519.000000) scale(1, -1) translate(-276.720674, -519.000000) ">
+                <use fill="#7E57C2" xlink:href="#path-6"></use>
+                <use fill-opacity="0.27" fill="#FFFFFF" xlink:href="#path-6"></use>
+            </g>
+            <g id="R" stroke-linejoin="round" fill-rule="nonzero">
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                <use stroke="#FFFFFF" stroke-width="3" fill="#00766C" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>
